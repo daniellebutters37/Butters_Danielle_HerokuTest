@@ -9,6 +9,8 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+const port = process.env.PORT || 3300;
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -37,8 +39,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-const port = process.env.port || 3300;
+
 app.listen(port, () => {
-  console.log(`Server running at ${port}/`);
+  console.log(`Server running @ ${port}/`);
 });
 module.exports = app;
