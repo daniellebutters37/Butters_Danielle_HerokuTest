@@ -1,0 +1,307 @@
+html {
+  background-color: #161616;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Muli", sans-serif;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: "Muli", sans-serif;
+  color: #161616;
+  font-size: 2em;
+}
+
+p, a {
+  font-family: "Muli", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  #wrapper {
+    display: grid;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+}
+#menu {
+  width: 40%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#menu a {
+  color: #161616;
+  margin-left: 5%;
+  font-weight: bold;
+  background-color: #f0d087;
+  border-radius: 7px;
+  padding: 3% 5% 3% 5%;
+  width: 16px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#landing {
+  background-image: url("../images/main_index.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#mainGreeting {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50%;
+}
+
+#greetingBtn {
+  background-color: #f0d087;
+  border: none;
+  height: 3.5em;
+  width: 80%;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-top: 5%;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+#greetingBtn a {
+  color: #161616;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+  #menu {
+    width: 15%;
+  }
+
+  #mainGreeting {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20%;
+  }
+
+  #greetingBtn {
+    width: 45%;
+    margin-left: 30%;
+    height: 4em;
+  }
+}
+#goproHeader {
+  background-image: url("../images/main_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#goproHeader #menuHeader {
+  width: 40%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#goproHeader #menuHeader a {
+  color: #fff;
+  margin-left: 5%;
+  font-weight: bold;
+  color: #161616;
+  margin-left: 5%;
+  font-weight: bold;
+  background-color: #f0d087;
+  border-radius: 7px;
+  padding: 3% 5% 3% 5%;
+  width: 16px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#logoHeader {
+  width: 30%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#taglineHeader {
+  width: 70%;
+  padding-top: 40%;
+  padding-bottom: 10%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#productionSelection {
+  width: 90%;
+  margin: 0 auto;
+}
+#productionSelection ul {
+  background-color: #109dd9;
+  border-radius: 7px;
+  margin-bottom: 5%;
+  margin-right: 7%;
+}
+#productionSelection ul h2 {
+  color: #fff;
+  font-size: 3em;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+#productionSelection ul p {
+  text-align: center;
+  padding-bottom: 2%;
+  color: #161616;
+}
+#productionSelection img {
+  margin-left: 5%;
+}
+
+@media (min-width: 800px) {
+  #goproHeader #menuHeader {
+    width: 15%;
+  }
+
+  #logoHeader {
+    width: 20%;
+    left: 100px;
+    top: 100px;
+  }
+
+  #taglineHeader {
+    padding-top: 20%;
+    font-size: 4em;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #productionSelection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  #productionSelection ul {
+    width: 80%;
+  }
+}
+#goproProduct {
+  background-image: url("../images/main_product.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+#goproProduct #menuHeaderProd {
+  width: 20%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#goproProduct #menuHeaderProd a {
+  color: #fff;
+  margin-left: 5%;
+  font-weight: bold;
+  color: #161616;
+  margin-left: 5%;
+  font-weight: bold;
+  background-color: #f0d087;
+  border-radius: 7px;
+  padding: 3% 5% 3% 5%;
+  width: 16px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+  font-size: 2.5em;
+  width: 100%;
+  padding-top: 20%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+#title span {
+  color: #f0d087;
+}
+
+#productImage {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#specHead {
+  margin: 5%;
+}
+
+#specs {
+  border-radius: 7px;
+  background-color: #109dd9;
+  margin: 5%;
+  padding: 5%;
+}
+#specs .subHead {
+  margin-top: 3%;
+}
+#specs p {
+  margin-bottom: 5%;
+}
+
+@media (min-width: 800px) {
+  #title {
+    padding-top: 10%;
+    margin: 5%;
+    text-align: left;
+    font-size: 3.5em;
+  }
+
+  #goproHeader #menuHeaderProd {
+    width: 5%;
+  }
+
+  #productImage {
+    width: 40%;
+  }
+
+  #specHead {
+    margin: 0;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #specs {
+    margin-right: 15%;
+    padding: 4%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

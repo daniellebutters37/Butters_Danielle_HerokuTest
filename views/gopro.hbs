@@ -1,11 +1,23 @@
 
-<p>GoPro Hero 7</p>
-{{#allProducts}}
-<a href="/gopro/{{id}}">
-    <ul>
-        <li><img src="{{image}}"></li>
-        <li><h2>{{name}}</h2></li>
-        <li><p>{{price}}</p></li>
-    </ul>
-</a>
-{{/allProducts}}
+<div id="goproHeader">
+    <div id="menuHeader">
+        <a href="/">Home</a>
+        <a href="{{allGoproLink}}">Hero 7</a>
+    </div>
+
+
+    <img id="logoHeader" src="../images/gopro_logo.svg" alt="gopro">
+    <div id="taglineHeader"><p>Drop into 4K and find the Hero7 that's right for you.</p></div>
+</div>
+
+<div id="wrapper"></div>
+    <div id="productionSelection">
+        {{#allProducts}}
+            <ul>
+                <li><h2 id="nameSelect">{{name}}</h2></li>
+                <li><a href="/gopro/{{id}}"><img src="{{image}}"></a></li>
+                <li><p id="nameSelect">{{video}}</p></li>
+            </ul>
+        {{/allProducts}}
+    </div>
+</div>

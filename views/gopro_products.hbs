@@ -1,7 +1,29 @@
-<p>GoPro Hero | {{name}}</p>
+<div id="goproProduct">
+    <div id="menuHeaderProd">
+        <a href="/">Home</a>
+        <a href="/{{allGoproLink}}">Hero 7</a>
+    </div>
 
-<img src="{{image}}">
-<p>{{about}}</p>
-<p>{{price}}</p>
+    <div id="wrapper">
+    <h2 id="title">GoPro Hero <span>|</span> {{name}}</h2>
+    <div id="container">
+        <div  id="productImage">
+            <img src="{{image}}">
+        </div>
+
+        <div id="info">
+            <h2 id="specHead">Specs: </h2>
+            <div id="specs">
+                    <p>$ {{price}}</p>
+                    <h3 class="subHead">Photo</h3>
+                    <p>- {{photo}}</p>
+                    <h3 class="subHead">Video</h3>
+                    <p>- {{video}}</p>
+                    <p>{{about}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 
