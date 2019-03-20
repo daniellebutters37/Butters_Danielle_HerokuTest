@@ -1,0 +1,18 @@
+html {
+  background-color: #161616;
+}
+
+h3, p, a {
+  font-family: "Muli", sans-serif;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+h2 {
+  color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
